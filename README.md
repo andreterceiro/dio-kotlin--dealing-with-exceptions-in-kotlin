@@ -65,3 +65,11 @@ fun main() {
 ```
 
 An observation: you can have more than one catch block. The first one that matches the exception is executed and if the try/catch block is used as an expression, only the first match is returned.
+
+
+
+# Checked exceptions
+
+Teacher showed us this three of Java exceptions. He explained to us that he can do it because Kotlin is based on Java:
+
+![exception hieararchy](images/exception-hierarchy.png)
