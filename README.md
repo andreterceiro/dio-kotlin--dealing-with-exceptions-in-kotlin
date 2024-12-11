@@ -63,3 +63,5 @@ fun main() {
     print(ret)
 }
 ```
+
+An observation: you can have more than one catch block. The first one that matches the exception is executed and if the try/catch block is used as an expression, only the first match is returned.
