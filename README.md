@@ -130,3 +130,14 @@ fun main() {
     print("Total votes: $total_votes")
 }
 ```
+
+
+# Void and Nothing in Kotlin
+
+You can search in the web, using words parameters of search [like this](https://www.google.com/search?q=kotlin+nothing+type&sca_esv=6031b854f1326109&sxsrf=ADLYWIJPypuVeJRxRwQjaj03W7kW9IdWnA%3A1733925003685&ei=i5hZZ_e_Kb295OUP2-H20Q8&ved=0ahUKEwi3saX_7Z-KAxW9HrkGHduwPfoQ4dUDCBA&uact=5&oq=kotlin+nothing+type&gs_lp=Egxnd3Mtd2l6LXNlcnAiE2tvdGxpbiBub3RoaW5nIHR5cGUyCBAAGIAEGMsBMgYQABgWGB5IvlFQwBFY9k1wAngBkAEBmAGXAqAB2h2qAQYwLjE0Lje4AQPIAQD4AQGYAhagAooeqAITwgIKEAAYsAMY1gQYR8ICBBAjGCfCAggQABgWGAoYHsICBxAjGCcY6gLCAgcQLhgnGOoCwgIUEAAYgAQY4wQYtAIY6QQY6gLYAQHCAhAQABgDGLQCGOoCGI8B2AEBwgIKECMYgAQYJxiKBcICDBAjGIAEGBMYJxiKBcICChAAGIAEGEMYigXCAggQLhiABBixA8ICERAuGIAEGLEDGNEDGIMBGMcBwgILEAAYgAQYsQMYgwHCAg4QLhiABBixAxjRAxjHAcICCBAAGIAEGLEDwgINEAAYgAQYsQMYFBiHAsICBRAAGIAEwgILEC4YgAQYsQMY1ALCAgUQLhiABJgDE_EFyq8SsfQ1XLuIBgGQBgi6BgYIARABGAGSBwYyLjExLjmgB9KUAQ&sclient=gws-wiz-serp).
+
+Talking about nothing, teacher showed us this code:
+![nothing](images/nothing.png)
+
+And talked us that the null have the type "Nothing":
+![type of null is Nothing](images/type-of-null-is-nothing.png)
