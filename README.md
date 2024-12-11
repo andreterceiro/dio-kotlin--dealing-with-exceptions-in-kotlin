@@ -73,3 +73,9 @@ An observation: you can have more than one catch block. The first one that match
 Teacher showed us this three of Java exceptions. He explained to us that he can do it because Kotlin is based on Java:
 
 ![exception hieararchy](images/exception-hierarchy.png)
+
+Teacher explained us:
+
+- That all exceptions and errors in hierarchy inherits from **Throwable**;
+- Kotlin does **not** have the concept of checked exceptions. In Java, blocks that maybe throws a checked exception must have a try/catch block;
+- You see in hierarchy that we have an exception and an error. Error is a most serious problem.
