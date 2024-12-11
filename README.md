@@ -77,5 +77,5 @@ Teacher showed us this three of Java exceptions. He explained to us that he can 
 Teacher explained us:
 
 - That all exceptions and errors in hierarchy inherits from **Throwable**;
-- Kotlin does **not** have the concept of checked exceptions. In Java, blocks that maybe throws a checked exception must have a try/catch block;
+- Kotlin does **not** have the concept of checked exceptions. In Java, blocks that maybe throws a checked exception must deal with the exception (maybe rethrow the exception);
 - You see in hierarchy that we have an exception and an error. Error is a most serious problem.
