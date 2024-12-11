@@ -10,6 +10,7 @@ fun main() {
 }
 ```
 
+
 # Catching an exception
 
 This is how to catch an exception:
@@ -29,5 +30,36 @@ fun main(){
         print(" -- finally executado")
     }
     print(" -- depois do try/catch")
+}
+```
+
+
+# Try as an expression
+
+You can return a value from a try/catch block. Details:
+- You can't use the **return** keyword. The result of the last line is returned;
+- A finnaly block is allowed, but do not return a value,
+
+Example:
+
+```kotlin
+package tests
+
+fun main() {
+    var ret = try {
+        20 / 5
+    } catch (e: ArithmeticException) {
+        null
+    }
+    print(ret)
+
+    print(" -- ")
+
+    ret = try {
+        20 / 0
+    } catch (e: ArithmeticException) {
+        null
+    }
+    print(ret)
 }
 ```
